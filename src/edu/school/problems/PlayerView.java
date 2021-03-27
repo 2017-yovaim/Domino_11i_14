@@ -26,11 +26,12 @@ public class PlayerView extends JComponent
 		});
 	}
 	
+	@Override
 	public void paintComponent(Graphics graphics)
 	{
 		Graphics2D g = (Graphics2D)graphics.create();
 		g.setColor(Color.lightGray);
-		g.fill(new Rectangle2D.Double(0, 0, 500, 500));
+		g.fill(new Rectangle2D.Double(0, 0, 900, 100));
 		int x = 60;
 		int y = 220;
 		Iterator<DominoTile> it = player.getTiles().getHandIterator();

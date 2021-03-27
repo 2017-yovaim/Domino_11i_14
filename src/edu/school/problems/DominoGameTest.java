@@ -9,7 +9,6 @@ public class DominoGameTest extends JFrame
 
 	public static void main(String[] args) 
 	{
-		// TODO Auto-generated method stub
 		JFrame f = new JFrame();
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		f.setBounds(50, 50, 900, 500);
